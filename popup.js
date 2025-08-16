@@ -80,3 +80,15 @@ async function getGeminiSummary(rawText, type, apiKey){
     // console.log(data);
     return data.candidates?.[0]?.content?.parts?.[0]?.text ?? "No summary";
 }
+
+document.getElementById("copy-btn").addEventListener("click", () => {
+    const text = document.getElementById("result").innerText;
+    if(!text) return;
+
+    navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById("copy-btn");
+        const old = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => (btn.textContent = old), 2000);
+    })
+})
