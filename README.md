@@ -1,4 +1,4 @@
-# AI Summary for Articles 📰✨
+# AI Summarizer for Articles 📰✨
 
 A Chrome Extension that extracts text from articles and provides a concise AI-generated summary using Gemini API.
 
@@ -6,7 +6,7 @@ A Chrome Extension that extracts text from articles and provides a concise AI-ge
 
 ## 🚀 Features
 - Extracts article text (from `<article>` tag or `<p>` tags).
-- Summarizes content with **Gemini API**.
+- Summarizes content with **Gemini API** in brief, detail, or bullet points.
 - Simple **popup UI** to generate summaries instantly.
 - Options page to save your API key securely.
 
@@ -16,8 +16,8 @@ A Chrome Extension that extracts text from articles and provides a concise AI-ge
 
 1. **Clone this repo**  
    ```
-   git clone https://github.com/<your-username>/ai-summary-extension.git
-   cd ai-summary-extension
+   git clone https://github.com/Shrutivk12/AI_Summary_Ext.git
+   cd AI_Summary_Ext
    ```
 2. **Load extension into Chrome**
 - Open chrome://extensions/
